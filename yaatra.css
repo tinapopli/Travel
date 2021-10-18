@@ -1,0 +1,98 @@
+html{
+    background-image: url(https://images.pexels.com/photos/221455/pexels-photo-221455.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover ;
+}
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 55px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    color:cornsilk;
+    background: rgba(255, 255, 255, 0.089);
+}
+header div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  1rem;
+    font-size:x-large;
+}
+header div i{
+    margin:1rem;
+    font-size:x-large;
+}
+header nav{
+    padding: 1rem 2rem;
+}
+nav ul li{
+    display: inline;
+    text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: limegreen;
+
+
+}
+nav li a{
+ padding: 1rem 1rem;
+    margin: 1rem 0.2rem;
+    transition:all;
+    color:cornsilk;
+    text-decoration: none;
+    
+   
+   
+}
+nav li a:hover{
+    background: rgba(255, 255, 0, 0.692);
+    color: mintcream;
+   padding: 1.19rem;
+  
+}
+#para{
+    text-align: center;
+    color: rgb(202, 170, 39);
+    font-size: xx-large;
+
+}
+.container-boxes{
+    display: flex;
+    margin: 10rem;
+    justify-content: space-around;
+    
+
+
+}
+.box{
+background: yellow;
+justify-content: space-between;
+display: flex;
+align-items: center;
+padding: 0rem;
+margin: 0.8rem;
+justify-content: space-around;
+
+}
+
+.icon{
+font-size: 5rem;
+padding: 0.8rem;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+.box:hover{
+    background:rgba(255, 248, 220, 0.74);
+    transform:translateY(-15%);
+}
+.text{
+    padding: 1rem;
+    margin: 0.8rem;
+    font: x-large;
+}
